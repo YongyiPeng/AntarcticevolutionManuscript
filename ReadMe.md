@@ -72,6 +72,7 @@ This workflow uses **Anvi’o** to integrate genomic variants with predicted pro
 
 ### References
 
-- [MetaCHIP Documentation](https://github.com/luuloi/MetaCHIP)  
+- [MetaCHIP Documentation](https://github.com/songweizhi/MetaCHIP)  
 - [Anvi’o Structure Module](https://merenlab.org/data/anvio-structure/chapter-III/)  
 - [Anvi’o Documentation](https://merenlab.org/software/anvio/)  
+
