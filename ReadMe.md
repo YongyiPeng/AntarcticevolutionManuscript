@@ -1,6 +1,6 @@
-# Microbial HGT & Structure-Informed Population Genetics Workflows
+# Integrated Workflows for HGT, Structure-Informed Population Genetics, and Codon-Based Selection in Microbial MAGs
 
-This repository contains workflows for **horizontal gene transfer (HGT) analysis** and **structure-informed population genetics** of microbial MAGs.
+This repository contains workflows for **horizontal gene transfer (HGT) analysis**, **structure-informed population genetics** and **phylogenetic codon-based selection analysis** of microbial MAGs.
 
 ---
 
@@ -70,9 +70,26 @@ This workflow uses **Anvi’o** to integrate genomic variants with predicted pro
 
 ---
 
+## 2. Phylogenetic Codon-based Selection Analysis
+
+This workflow uses **HyPhy** to perform codon-level evolutionary selection analyses (e.g., episodic diversifying selection, relaxed selection, and site-level selection) on microbial genes based on phylogenetic frameworks.
+
+### Scripts Overview
+
+| Script | Description |
+|--------|-------------|
+| `HyPhy.sh` | Codon-based selection analysis using HyPhy (MEME, FEL, RELAX) on phylogenetic alignments. |
+
+---
+
 ### References
 
 - [MetaCHIP Documentation](https://github.com/songweizhi/MetaCHIP)  
 - [Anvi’o Structure Module](https://merenlab.org/data/anvio-structure/chapter-III/)  
-- [Anvi’o Documentation](https://merenlab.org/software/anvio/)  
+- [Anvi’o Documentation](https://merenlab.org/software/anvio/)
+- [HyPhy Documentation](https://hyphy.org/)
 
+---
+
+### Acknowledgements
+We acknowledge the developers of MetaCHIP, Anvi’o, and HyPhy for providing open-source tools and detailed documentation used in this workflow.
