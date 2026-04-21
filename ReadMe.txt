@@ -36,3 +36,7 @@ Generate structure DB from predicted PDB files.
 
 Population_genetics/10_anvi-structure_run.sh
 Run InteracDome for ligand-binding predictions. Integrate protein structure information. Export residue info or ligand-binding distances. Visualize variants on structures.
+
+3. Phylogenetic codon-based selection analysis
+Codon-based_selection/Hyphy.sh
+This script uses HyPhy to perform codon-based evolutionary selection analyses on phylogenetic gene alignments. It applies MEME, FEL, and RELAX to detect episodic selection, pervasive selection, and changes in selection intensity across microbial genes.
