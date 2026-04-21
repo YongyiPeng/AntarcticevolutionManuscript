@@ -82,6 +82,15 @@ This workflow uses **HyPhy** to perform codon-level evolutionary selection analy
 
 ---
 
+### Software Dependencies (with tested versions)
+The analysis workflows require the following software.
+
+- MetaCHIP (v1.10.13 tested)
+- Anvi'o (v8 tested)
+- Hyphy (v2.5.29 tested)
+
+---
+
 ### References
 
 - [MetaCHIP Documentation](https://github.com/songweizhi/MetaCHIP)  
